@@ -9,7 +9,7 @@ import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-class ReacoChat {
+class RicoChat {
 
     private static Stream<Arguments> setParameter() {
         return Stream.of(
@@ -24,7 +24,7 @@ class ReacoChat {
 
     @ParameterizedTest
     @MethodSource("setParameter")
-    void reacoChat(String[] board){
+    void ricoChat(String[] board){
         System.out.println(solution(board));
     }
 
