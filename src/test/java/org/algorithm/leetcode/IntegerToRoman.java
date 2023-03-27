@@ -1,4 +1,4 @@
-package org.algorithm.Lv2;
+package org.algorithm.leetcode;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
